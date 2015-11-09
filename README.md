@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sbstnmsch/nip.to-app.svg?branch=master)](https://travis-ci.org/sbstnmsch/nip.to-app)
+
 # nip.to<sup>&reg;</sup> client
 nip.to is a free service to share your current location to
 friends, - even if they don't use nip.to.
