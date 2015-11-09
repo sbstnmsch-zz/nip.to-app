@@ -1,0 +1,27 @@
+@keyframes explode {
+  0% {
+    transform: translateY(-50%) scale(0);
+  }
+  25% {
+    transform: translateY(-50%) scale(1.1);
+  }
+  50% {
+    transform: translateY(-50%) scale(0.95);
+  }
+  75% {
+    transform: translateY(-50%) scale(1.025);
+  }
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+@define-mixin exploded {
+  will-change: transform;
+  transform: translateY(-50%) scale(0);
+}
+
+@utility explode {
+  will-change: transform;
+  animation: explode .3s ease-out forwards;
+}

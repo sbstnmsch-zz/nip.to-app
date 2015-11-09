@@ -1,0 +1,74 @@
+
+@component share {
+  @mixin centered;
+  @mixin exploded;
+  overflow: hidden;
+  width: 80%;
+  a {
+    display: block;
+    color: var(--corporate-text-color);
+    border-radius: 10px;
+    border: solid var(--corporate-foreground-color) 3px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      display: inline-block;
+      content: '';
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      background-size: 100%;
+      margin-right: 8px;
+    }
+  }
+
+  @modifier sms {
+    &:before {
+      background-image: svg("ei#pencil");
+    }
+    &:after {
+      content: 'Share via SMS';
+    }
+  }
+
+  @modifier whatsapp {
+    &:before {
+      background-image: svg("ei#comment");
+    }
+    &:after {
+      content: 'Share via WhatsApp';
+    }
+  }
+
+  @modifier email {
+    &:before {
+      background-image: svg("ei#envelope");
+    }
+    &:after {
+      content: 'Share via E-Mail';
+    }
+  }
+
+  @modifier facebook {
+    &:before {
+      background-image: svg("ei#sc-facebook");
+    }
+    &:after {
+      content: 'Share via Facebook';
+    }
+  }
+
+  @modifier twitter {
+    &:before {
+      background-image: svg("ei#sc-twitter");
+    }
+    &:after {
+      content: 'Share via Twitter';
+    }
+  }
+}

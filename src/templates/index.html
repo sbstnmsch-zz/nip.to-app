@@ -1,0 +1,30 @@
+<!doctype html>
+<html manifest="nip.to.appcache">
+  <head>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no" />
+    <title>nip.to</title>
+
+    <!-- build:css inline -->
+    <link rel="stylesheet" href="assets/stylesheets/nip.to-app.critical.inline.min.css" />
+    <!-- /build -->
+
+  </head>
+  <body class="nipto">
+    <div class="u-centered u-3d">
+      <div class="nipto-content nipto-compass"><div class="nipto-spinner"></div></div>
+    </div>
+    <ul class="nipto-navigation u-3d u-onload-fadein">
+      <li class="nipto-navigation-item"><a class="nipto-navigation-compass u-icon-compass" href="#compass"></a></li>
+      <li class="nipto-navigation-item"><a class="nipto-navigation-share u-icon-share" href="#share"></a></li>
+      <li class="nipto-navigation-item"><a class="nipto-navigation-explore u-icon-explore" href="#explore"></a></li>
+    </ul>
+
+    <!-- build:js inline -->
+    <script src="assets/javascripts/nip.to-app.loader.min.js" defer />
+    <!-- /build -->
+
+  </body>
+</html>

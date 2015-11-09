@@ -1,0 +1,28 @@
+@define-mixin icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+@utility icon-compass {
+  @mixin icon;
+  background-image: svg("ei#pointer");
+}
+
+@utility icon-share {
+  @mixin icon;
+  background-image: svg("ei#share-apple");
+}
+
+.android .u-icon-share {
+  background-image: svg("ei#share-google");
+}
+
+@utility icon-explore {
+  @mixin icon;
+  background-image: svg("ei#location");
+}
+
+@utility icon-needle {
+  @mixin icon;
+  background-image: svg("needle");
+}

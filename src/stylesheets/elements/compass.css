@@ -1,0 +1,20 @@
+@component compass {
+  @mixin exploded;
+  overflow: hidden;
+  @descendent heading {
+    text-align: center;
+    &:after {
+      content: '°';
+    }
+  }
+  @descendent needle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    will-change: transform;
+    transform: rotate(-36270deg);
+    transition: transform .2s ease-in-out;
+  }
+}

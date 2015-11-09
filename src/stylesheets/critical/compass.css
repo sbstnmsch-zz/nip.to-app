@@ -1,0 +1,5 @@
+@component compass {
+  @mixin centered;
+  width: 80%;
+  height: 80%;
+}

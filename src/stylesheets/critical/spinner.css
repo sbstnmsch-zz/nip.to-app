@@ -1,0 +1,25 @@
+@component spinner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: svg("ei#spinner-2");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: spinner-rotate 1s infinite;
+  will-change: transform;
+}
+
+@keyframes spinner-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,5 @@
+@utility 3d {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+}

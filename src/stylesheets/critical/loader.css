@@ -1,0 +1,10 @@
+/*
+  The nip.to lazy style-loader uses an img-tag to trigger an onload
+  event when a stylesheet is loaded. Don't display that.
+
+  @see http://viget.com/inspire/js-201-run-a-function-when-a-stylesheet-finishes-loading
+*/
+
+img {
+  display: none;
+}

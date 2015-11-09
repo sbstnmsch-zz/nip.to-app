@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--corporate-text-color);
+  background-color: var(--corporate-background-color);
+}
+
+@utility centered {
+  position: absolute;
+}
+
+@media (--orientation-portrait) {
+  @utility centered {
+    top: 0;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    height: calc(100% - 100px);
+    width: 100%;
+  }
+}
+
+@media (--orientation-landscape) {
+  @utility centered {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100px;
+    height: 100%;
+    width: calc(100% - 100px);
+  }
+}

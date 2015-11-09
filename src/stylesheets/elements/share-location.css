@@ -1,0 +1,9 @@
+
+@component share-location {
+  @mixin centered;
+  @mixin exploded;
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+  background-size: 120px;
+}

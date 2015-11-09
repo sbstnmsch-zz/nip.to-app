@@ -1,0 +1,13 @@
+/* Responsive layout */
+
+:root {
+  --res-min-width: 20em;
+  --res-max-width: 60em;
+}
+
+@custom-media --mini-viewport (min-width: 0);
+@custom-media --medium-viewport (min-width: 20em);
+@custom-media --wide-viewport (min-width: 60m);
+
+@custom-media --orientation-portrait (orientation:portrait);
+@custom-media --orientation-landscape (orientation:landscape);

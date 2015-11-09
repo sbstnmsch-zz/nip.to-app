@@ -1,0 +1,5 @@
+/* Critical configuration */
+
+@import 'corporate/index.css';
+@import 'generic/index.css';
+@import 'critical/index.css';

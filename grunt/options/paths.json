@@ -1,0 +1,18 @@
+{
+  "tmp": "tmp",
+  "jscsrc": ".jscsrc",
+  "src": {
+    "config": "src/config",
+    "stylesheets": "src/stylesheets",
+    "javascripts": "src/javascripts",
+    "templates": "src/templates"
+  },
+  "dist": {
+    "default": "dist",
+    "config": "dist",
+    "assets": "dist/assets",
+    "stylesheets": "dist/assets/stylesheets",
+    "javascripts": "dist/assets/javascripts",
+    "templates": "dist"
+  }
+}

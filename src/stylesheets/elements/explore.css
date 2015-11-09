@@ -1,0 +1,55 @@
+@component explore {
+  @mixin centered;
+  @mixin exploded;
+  overflow: hidden;
+  width: 80%;
+  a {
+    display: block;
+    color: var(--corporate-text-color);
+    border-radius: 10px;
+    border: solid var(--corporate-foreground-color) 3px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      display: inline-block;
+      content: '';
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      background-size: 100%;
+      margin-right: 8px;
+    }
+  }
+
+  @modifier food {
+    &:before {
+      background-image: svg("ei#heart");
+    }
+    &:after {
+      content: 'Food';
+    }
+  }
+
+  @modifier culture {
+    &:before {
+      background-image: svg("ei#image");
+    }
+    &:after {
+      content: 'Culture';
+    }
+  }
+
+  @modifier party {
+    &:before {
+      background-image: svg("ei#sc-odnoklassniki");
+    }
+    &:after {
+      content: 'Party';
+    }
+  }
+}
