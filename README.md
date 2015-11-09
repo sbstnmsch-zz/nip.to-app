@@ -20,9 +20,9 @@ in.
 
 ## Looks like damn simple
 <div>
-  <img style="display: inline-block;" src=".README.md/compass.jpg" />
-  <img style="display: inline-block;" src=".README.md/share.jpg" />
-  <img src=".README.md/explore.jpg" />
+  <img style="display: inline-block;" src=".README.md/sm-compass.jpg" />
+  <img style="display: inline-block;" src=".README.md/sm-share.jpg" />
+  <img src=".README.md/sm-explore.jpg" />
 </div>
 
 ## Contributing
