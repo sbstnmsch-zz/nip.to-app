@@ -20,9 +20,8 @@ in.
 
 ## Looks like damn simple
 <div>
-  <style> .u-inline { display: inline-block; } </style>
-  <img class="u-inline" src=".README.md/compass.jpg" />
-  <img class="u-inline" src=".README.md/share.jpg" />
+  <img style="display: inline-block;" src=".README.md/compass.jpg" />
+  <img style="display: inline-block;" src=".README.md/share.jpg" />
   <img src=".README.md/explore.jpg" />
 </div>
 
