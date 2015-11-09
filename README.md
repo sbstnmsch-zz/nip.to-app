@@ -18,6 +18,14 @@ of the desert and even lost cars.
 Hit http://nip.to with your smartphone or tablet and you are all
 in.
 
+## Looks like damn simple
+<div>
+  <style> .u-inline { display: inline-block; } </style>
+  <img class="u-inline" src=".README.md/compass.jpg" />
+  <img class="u-inline" src=".README.md/share.jpg" />
+  <img src=".README.md/explore.jpg" />
+</div>
+
 ## Contributing
 To start a local client copy `src/config/nipto-default.json` to
 `nipto.json`, fill out... and do:
