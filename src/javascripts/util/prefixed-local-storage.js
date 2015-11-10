@@ -15,7 +15,7 @@ export class PrefixedLocalStorage {
 
   clear() {
     for (let key in this.window.localStorage) {
-      if (key.startsWith(this.prefix)) {
+      if (key.indexOf(this.prefix) === 0) {
         this.window.localStorage.removeItem(key);
       }
     }
