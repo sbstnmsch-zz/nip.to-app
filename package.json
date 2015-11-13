@@ -55,7 +55,7 @@
     "postcss-svgo": "2.0.1",
     "tape": "4.0.1",
     "time-grunt": "1.1.0",
-    "webpack": "1.10.1",
+    "webpack": "1.12.5",
     "window-mock": "0.0.7"
   },
   "license": "MIT"
