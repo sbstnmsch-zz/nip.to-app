@@ -17,7 +17,7 @@ var
     _autoprefixerProcessor = require('autoprefixer')({
       browsers: [
         '> 2%',
-        'last 5 Android versions',
+        'Android 4',
         'last 3 iOS versions',
         'last 5 Chrome versions',
         'last 5 ChromeAndroid versions',
