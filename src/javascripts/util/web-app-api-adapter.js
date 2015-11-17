@@ -1,7 +1,7 @@
 
 // API Mock
 
-export default class WebAppApiAdapter {
+export class WebAppApiAdapter {
 
   constructor(app) {
     this.app = app;
@@ -30,3 +30,5 @@ export default class WebAppApiAdapter {
     console.log(`error: ${msg}`);
   }
 }
+
+export default WebAppApiAdapter;
