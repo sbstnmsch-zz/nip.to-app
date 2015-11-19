@@ -19,7 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "6.0.2",
-    "babel-cli": "6.1.18",
+    "babel-cli": "6.2.0",
     "babel-core": "6.1.21",
     "babel-eslint": "4.1.4",
     "babel-loader": "6.2.0",
