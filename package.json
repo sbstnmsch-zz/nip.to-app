@@ -52,7 +52,7 @@
     "postcss-mixins": "2.1.1",
     "postcss-nested": "1.0.0",
     "postcss-svg": "1.0.1",
-    "postcss-svgo": "2.0.1",
+    "postcss-svgo": "2.1.0",
     "tape": "4.0.1",
     "time-grunt": "1.1.0",
     "webpack": "1.12.9",
