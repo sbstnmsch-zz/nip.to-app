@@ -39,7 +39,7 @@
     "grunt-html": "5.0.1",
     "grunt-manifest": "0.4.0",
     "grunt-postcss": "0.7.1",
-    "grunt-processhtml": "0.3.7",
+    "grunt-processhtml": "0.3.8",
     "grunt-shell": "1.1.2",
     "jit-grunt": "0.9.1",
     "json-loader": "0.5.4",
