@@ -1,4 +1,4 @@
-sudo: false
+sudo: required
 language: node_js
 env:
   - NODE_VERSION=0.12
@@ -7,6 +7,9 @@ env:
 jdk:
   - oraclejdk8
 before_install:
+  - sudo apt-get update
+  - sudo apt-get install oracle-java8-installer
+  - sudo update-java-alternatives -s java-8-oracle
   - nvm install "$NODE_VERSION"
   - node --version
   - npm --version
@@ -19,7 +22,3 @@ script:
   - npm test
 matrix:
   fast_finish: true
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
