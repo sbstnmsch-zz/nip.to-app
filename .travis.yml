@@ -1,7 +1,21 @@
+sudo: false
 language: node_js
-node_js:
-  - '5'
-  - '4'
-  - '0.12'
+env:
+  - NODE_VERSION=0.12
+  - NODE_VERSION=4
+  - NODE_VERSION=5
 jdk:
   - oraclejdk8
+before_install:
+  - nvm install "$NODE_VERSION"
+  - node --version
+  - npm --version
+  - java -version
+install:
+  - npm install -g grunt-cli
+  - grunt --version
+  - npm install
+script:
+  - npm test
+matrix:
+  fast_finish: true
