@@ -1,5 +1,5 @@
 var
-    _postcssNextProcessor = require('cssnext')(),
+    _postcssNextProcessor = require('postcss-cssnext')(),
     _postcssCustomPropertiesProcessor = require('postcss-custom-properties')(),
     _postcssCustomMediaProcessor = require('postcss-custom-media')(),
     _postcssImportProcessor = require('postcss-import')(),
