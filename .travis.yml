@@ -19,3 +19,7 @@ script:
   - npm test
 matrix:
   fast_finish: true
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
