@@ -37,7 +37,7 @@
     "grunt-eslint": "17.3.1",
     "grunt-html": "6.0.0",
     "grunt-manifest": "0.4.4",
-    "grunt-postcss": "0.7.1",
+    "grunt-postcss": "0.7.2",
     "grunt-processhtml": "0.3.9",
     "grunt-shell": "1.1.2",
     "jit-grunt": "0.9.1",
