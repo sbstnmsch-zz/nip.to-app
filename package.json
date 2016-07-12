@@ -35,7 +35,7 @@
     "grunt-contrib-htmlmin": "0.6.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-eslint": "17.3.1",
-    "grunt-html": "6.0.0",
+    "grunt-html": "7.0.0",
     "grunt-manifest": "0.4.4",
     "grunt-postcss": "0.8.0",
     "grunt-processhtml": "0.3.9",
