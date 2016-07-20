@@ -54,7 +54,7 @@
     "postcss-svg": "https://github.com/kvz/postcss-svg#9239b6dd4ab0dc3ef37f41c9cbc0e23d25549c7b",
     "postcss-svgo": "2.1.4",
     "tape": "4.5.1",
-    "time-grunt": "1.3.0",
+    "time-grunt": "1.4.0",
     "webpack": "1.13.0",
     "window-mock": "0.0.7"
   },
