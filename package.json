@@ -43,7 +43,7 @@
     "jit-grunt": "0.9.1",
     "json-loader": "0.5.4",
     "load-grunt-config": "0.19.1",
-    "node-libs-browser": "1.0.0",
+    "node-libs-browser": "1.1.1",
     "postcss-bem": "0.4.1",
     "postcss-cssnext": "^2.4.0",
     "postcss-custom-media": "5.0.0",
