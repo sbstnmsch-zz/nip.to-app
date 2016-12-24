@@ -49,7 +49,7 @@
     "postcss-custom-media": "5.0.0",
     "postcss-custom-properties": "5.0.1",
     "postcss-import": "8.0.2",
-    "postcss-mixins": "4.0.0",
+    "postcss-mixins": "5.4.1",
     "postcss-nested": "1.0.0",
     "postcss-svg": "https://github.com/kvz/postcss-svg#9239b6dd4ab0dc3ef37f41c9cbc0e23d25549c7b",
     "postcss-svgo": "2.1.4",
