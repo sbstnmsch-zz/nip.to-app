@@ -47,7 +47,7 @@
     "postcss-bem": "0.4.1",
     "postcss-cssnext": "^2.4.0",
     "postcss-custom-media": "5.0.0",
-    "postcss-custom-properties": "5.0.1",
+    "postcss-custom-properties": "5.0.2",
     "postcss-import": "8.0.2",
     "postcss-mixins": "4.0.0",
     "postcss-nested": "1.0.0",
