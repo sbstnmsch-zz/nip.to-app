@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/sbstnmsch/nip.to-app.svg?branch=master)](https://travis-ci.org/sbstnmsch/nip.to-app)
 
 # nip.to<sup>&reg;</sup> client
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sbstnmsch/nip.to-app.svg)](https://greenkeeper.io/)
 nip.to is a free service to share your current location to
 friends, - even if they don't use nip.to.
 
